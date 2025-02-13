@@ -1,0 +1,15 @@
+*{
+    border: solid red;
+}
+
+.mother{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    justify-content: space-evenly;
+    background-color: beige;
+    border-radius: 12px;
+}

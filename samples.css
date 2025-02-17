@@ -1,0 +1,246 @@
+.ancestor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.mother{
+    display: flex;
+    flex-direction: column;
+}
+
+.father{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.son{
+    border: solid 0.2px white;
+    transition-property: background-color;
+    border-radius: 12px;
+}
+
+.son:hover{
+    background-color: white;
+}
+
+.nav{
+    margin: 0px;
+    padding: 4px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.center-y{
+    justify-content: center;
+}
+
+.inline{
+    display: inline;
+}
+
+.width{
+    width: 100%;
+}
+
+.width80{
+    width: 80%;
+}
+
+.width70{
+    width: 70%;
+}
+
+.width20{
+    width: 20%;
+}
+
+.gap16{
+    gap: 16px;
+}
+
+.logo{
+    width: 100%;
+    padding: 16px;
+    flex-wrap: wrap-reverse;
+}
+
+.topper{
+    padding-top: 16px;
+}
+
+header{
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    min-width: 360px;
+}
+
+nav{
+    justify-content:center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    min-width: 400px;
+}
+
+.line-f{
+    background-color: white;
+    height: 1px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+    min-width: 275px;
+    align-self: center;
+}
+
+.font-parag{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0px;
+    color: white;
+    margin-bottom: 12px;
+    margin-left: 4px;
+}
+
+.font-parag-sk{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0px;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-left: 28px;
+}
+
+.font-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 0px;
+    color: white;
+    margin-bottom: 12px;
+    margin-left: 4px;
+}
+
+.font-title-sk{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin: 0px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 4px;
+}
+
+.font-title-1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 0px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+
+.font-title-resume{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 4px;
+    padding: 4px 8px;
+}
+
+
+.logo-f{
+    width: 10%;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+
+.centered{
+    justify-content: center;
+    align-items: center;
+}
+
+.center-self{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile{
+    width: 40%;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 16px;
+}
+
+.image{
+    width: 30%;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.image-y{
+    width: 55%;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.video{
+    width: 50%;
+    height: 300px;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.skill{
+    justify-content: flex-start;
+    min-width: 340px;
+}  
+
+.list{
+    align-items: flex-start;
+    flex-grow: 7;
+}
+
+.date{
+    align-items: flex-start;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.samples{
+    justify-content: center;
+    align-items: center;
+}

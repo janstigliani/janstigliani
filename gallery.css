@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+.father-n {
+    display: flex;
+}
+
 .father {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +94,7 @@ a {
     text-decoration: none;
     color: white;
     transition-property: color;
+    display: inline;
 }
 
 a:hover {

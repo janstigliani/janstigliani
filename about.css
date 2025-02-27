@@ -1,4 +1,4 @@
-.ancestor{
+.ancestor {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,95 +6,95 @@
     margin: 0px;
 }
 
-.mother{
+.mother {
     display: flex;
     flex-direction: column;
 }
 
-.father{
+.father {
     display: flex;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.son{
+.son {
     border: solid 0.2px white;
     transition-property: background-color;
     border-radius: 12px;
 }
 
-.son:hover{
+.son:hover {
     background-color: white;
 }
 
-.nav{
+.nav {
     margin: 0px;
     padding: 4px 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
 }
 
-.center-y{
+.center-y {
     justify-content: center;
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
-.width{
+.width {
     width: 100%;
 }
 
-.width80{
+.width80 {
     width: 80%;
 }
 
-.width70{
+.width70 {
     width: 70%;
 }
 
-.width20{
+.width20 {
     width: 20%;
 }
 
-.gap16{
+.gap16 {
     gap: 16px;
 }
 
-.logo{
+.logo {
     width: 100%;
     padding: 16px;
     flex-wrap: wrap-reverse;
 }
 
-.topper{
+.topper {
     padding-top: 16px;
 }
 
-header{
+header {
     justify-content: space-between;
     flex-wrap: wrap-reverse;
     min-width: 360px;
 }
 
-nav{
-    justify-content:center;
+nav {
+    justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     transition-property: color;
 }
 
-a:hover{
+a:hover {
     color: cadetblue;
 }
 
-.line{
+.line {
     background-color: white;
     height: 1px;
     margin-top: 12px;
@@ -102,7 +102,7 @@ a:hover{
     min-width: 400px;
 }
 
-.line-f{
+.line-f {
     background-color: white;
     height: 1px;
     margin-top: 12px;
@@ -112,8 +112,8 @@ a:hover{
     align-self: center;
 }
 
-.font-parag{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-parag {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     margin: 0px;
     color: white;
@@ -121,8 +121,8 @@ a:hover{
     margin-left: 4px;
 }
 
-.font-title{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     margin: 0px;
     color: white;
@@ -130,26 +130,26 @@ a:hover{
     margin-left: 4px;
 }
 
-.font-title-resume{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-title-resume {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     margin: 0px;
     margin-bottom: 12px;
     margin-left: 4px;
 }
 
-.logo-f{
+.logo-f {
     width: 10%;
     padding: 16px;
     flex-wrap: wrap;
 }
 
-.centered{
+.centered {
     justify-content: center;
     align-items: center;
 }
 
-.profile{
+.profile {
     width: 40%;
     flex-wrap: wrap;
     align-self: center;

@@ -13,6 +13,8 @@
 
 .father {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .wrap {
@@ -269,10 +271,17 @@ a:hover {
     flex-grow: 1;
 }
 
-.link-50{
+.link-50 {
     max-width: 50%;
 }
 
-.link-30{
+.link-30 {
     max-width: 33%;
+}
+
+@media (max-width: 768px) {
+    .video, .image, .image-1 {
+        width: 100%;
+        padding: 20px;
+    }
 }

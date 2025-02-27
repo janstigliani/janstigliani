@@ -1,4 +1,4 @@
-.ancestor{
+.ancestor {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,95 +6,95 @@
     margin: 0px;
 }
 
-.mother{
+.mother {
     display: flex;
     flex-direction: column;
 }
 
-.father{
+.father {
     display: flex;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.son{
+.son {
     border: solid 0.2px white;
     transition-property: background-color;
     border-radius: 12px;
 }
 
-.son:hover{
+.son:hover {
     background-color: white;
 }
 
-.nav{
+.nav {
     margin: 0px;
     padding: 4px 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
 }
 
-.center-y{
+.center-y {
     justify-content: center;
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
-.width{
+.width {
     width: 100%;
 }
 
-.width80{
+.width80 {
     width: 80%;
 }
 
-.width70{
+.width70 {
     width: 70%;
 }
 
-.width20{
+.width20 {
     width: 20%;
 }
 
-.gap16{
+.gap16 {
     gap: 16px;
 }
 
-.logo{
+.logo {
     width: 100%;
     padding: 16px;
     flex-wrap: wrap-reverse;
 }
 
-.topper{
+.topper {
     padding-top: 16px;
 }
 
-header{
+header {
     justify-content: space-between;
     flex-wrap: wrap-reverse;
     min-width: 360px;
 }
 
-nav{
-    justify-content:center;
+nav {
+    justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     transition-property: color;
 }
 
-a:hover{
+a:hover {
     color: cadetblue;
 }
 
-.line{
+.line {
     background-color: white;
     height: 1px;
     margin-top: 12px;
@@ -102,7 +102,7 @@ a:hover{
     min-width: 400px;
 }
 
-.line-f{
+.line-f {
     background-color: white;
     height: 1px;
     margin-top: 12px;
@@ -112,8 +112,8 @@ a:hover{
     align-self: center;
 }
 
-.font-parag{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-parag {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     margin: 0px;
     color: white;
@@ -121,8 +121,8 @@ a:hover{
     margin-left: 4px;
 }
 
-.font-parag-sk{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-parag-sk {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     margin: 0px;
     color: white;
@@ -131,8 +131,8 @@ a:hover{
     margin-left: 28px;
 }
 
-.font-title{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     margin: 0px;
     color: white;
@@ -140,8 +140,8 @@ a:hover{
     margin-left: 4px;
 }
 
-.font-title-sk{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-title-sk {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
     margin: 0px;
     color: white;
@@ -149,8 +149,8 @@ a:hover{
     margin-left: 4px;
 }
 
-.font-title-1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-title-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     margin: 0px;
     color: white;
@@ -158,8 +158,8 @@ a:hover{
     margin-left: 4px;
 }
 
-.font-title-resume{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.font-title-resume {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     margin-right: 0px;
     margin-bottom: 30px;
@@ -168,32 +168,31 @@ a:hover{
     padding: 4px 8px;
 }
 
-
-.logo-f{
+.logo-f {
     width: 10%;
     padding: 16px;
     flex-wrap: wrap;
 }
 
-.centered{
+.centered {
     justify-content: center;
     align-items: center;
 }
 
-.center-self{
+.center-self {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.profile{
+.profile {
     width: 40%;
     flex-wrap: wrap;
     align-self: center;
     padding: 16px;
 }
 
-.image{
+.image {
     width: 30%;
     flex-wrap: wrap;
     align-self: center;
@@ -203,7 +202,7 @@ a:hover{
     display: block;
 }
 
-.image-y{
+.image-y {
     width: 55%;
     flex-wrap: wrap;
     align-self: center;
@@ -213,7 +212,7 @@ a:hover{
     display: block;
 }
 
-.video{
+.video {
     width: 50%;
     height: 300px;
     flex-wrap: wrap;
@@ -224,23 +223,23 @@ a:hover{
     display: block;
 }
 
-.skill{
+.skill {
     justify-content: flex-start;
     min-width: 340px;
 }  
 
-.list{
+.list {
     align-items: flex-start;
     flex-grow: 7;
 }
 
-.date{
+.date {
     align-items: flex-start;
     min-width: 150px;
     max-width: 150px;
 }
 
-.samples{
+.samples {
     justify-content: center;
     align-items: center;
 }
